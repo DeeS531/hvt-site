@@ -1,0 +1,150 @@
+300 ||| Технічні характеристики реєстратора спрацьовування {0} ||| Technical specifications of the surge counter {0}
+301 ||| Тип ||| Type
+302 ||| Тип вводу ||| Bushing type
+303 ||| Тип вимикача ||| Circuit breaker type
+304 ||| Тип провода, що затискається ||| Type of clamped wire
+305 ||| Тип шинної опори ||| Busbar support type
+306 ||| Типові виконання інших класів напруги дивіться в ||| For typical versions of other voltage classes, see the
+307 ||| Типи вводів за вимикачами ||| Bushing types by circuit breaker
+308 ||| Типи проводів: ||| Wire types:
+309 ||| Типи: ||| Types:
+310 ||| Струм ||| Current
+311 ||| Товщина перешкоди (вказується при замовленні) ||| Barrier thickness (specified when ordering)
+312 ||| Кут встановлення ||| Installation angle
+313 ||| Питома енергоємність обмежувача, не менше ||| Specific energy capability of the arrester, not less than
+314 ||| Питома енергоємність обмежувача, не менше ||| Specific energy capability of the arrester, not less than
+315 ||| Україна, м. Київ ||| Ukraine, Kyiv
+316 ||| Рівень часткових розрядів, пКл ||| Partial discharge level, pC
+317 ||| Умови експлуатації реєстратора {0}: ||| Operating conditions of the counter {0}:
+318 ||| Будова {0} (у розрізі) ||| Structure of {0} (cross-section)
+319 ||| Файл ||| File
+320 ||| Порцелянові аналоги ||| Porcelain equivalents
+321 ||| Порцеляновий аналог ||| Porcelain equivalent
+322 ||| Порцеляновий аналог (варіанти позначення) ||| Porcelain equivalent (designation variants)
+323 ||| Фіксаторний ізолятор ||| Registration insulator
+324 ||| Фланець ||| Flange
+325 ||| Фото ||| Photos
+326 ||| Характеристики ||| Specifications
+327 ||| Креслення ||| Drawing
+328 ||| Креслення {0} ||| Drawing {0}
+329 ||| Креслення {0} з ізолювальним кронштейном і дисконектором ||| Drawing {0} with insulating bracket and disconnector
+330 ||| Креслення {0} виконання {1} ||| Drawing {0} version {1}
+331 ||| Креслення {0} кВ ||| Drawing {0} kV
+332 ||| Креслення {0} з ізолювальним кронштейном і дисконектором ||| Drawing {0} with insulating bracket and disconnector
+333 ||| Креслення: лінійні вводи {0} кВ ||| Drawing: {0} kV line bushings
+334 ||| Креслення розпірок міжфазних {0}, {1}, {2}, {3} (малюнки {4}) ||| Drawing of phase spacers {0}, {1}, {2}, {3} (figures {4})
+335 ||| Шинна опора {0} ||| Busbar support {0}
+336 ||| Шинні опори ||| Busbar supports
+337 ||| Шинні опори {0} і {1} ||| Busbar supports {0} and {1}
+338 ||| Шинні опори {0} і {1} кВ ||| Busbar supports {0} and {1} kV
+339 ||| Шинні опори {0} і {1} кВ — {2} ||| Busbar supports {0} and {1} kV — {2}
+340 ||| Шинні опори {0}, {1} ||| Busbar supports {0}, {1}
+341 ||| Шинні опори {0}, {1} — {2} ||| Busbar supports {0}, {1} — {2}
+342 ||| Шинні опори на напругу {0} кВ ||| Busbar supports for {0} kV
+343 ||| Шинні опори на напругу {0} кВ. ||| Busbar supports for {0} kV.
+344 ||| Електричні характеристики ||| Electrical specifications
+345 ||| залежно від конфігурації шинної опори ||| depends on the busbar support configuration
+346 ||| повітря-повітря, {0} ||| air-to-air, {0}
+347 ||| для підвіски грозозахисного троса ||| for suspension of a lightning-protection cable
+348 ||| у вихідних даних є розбіжності ||| there are discrepancies in the source data
+349 ||| залежить від конфігурації ||| depends on the configuration
+350 ||| виконання {0}, квадратний фланець ||| version {0}, square flange
+351 ||| кА ||| kA
+352 ||| кВ ||| kV
+353 ||| кДж/кВ ||| kJ/kV
+354 ||| кН ||| kN
+355 ||| каталозі {0} ||| {0} catalogue
+356 ||| каталозі шинних опор ||| busbar support catalogue
+357 ||| кг ||| kg
+358 ||| м ||| m
+359 ||| мм ||| mm
+360 ||| овальний фланець ||| oval flange
+361 ||| опорно-стрижневий {0} ||| post rod type {0}
+362 ||| від {0} до {1} ||| from {0} to {1}
+363 ||| від {0} до {1}; ||| from {0} to {1};
+364 ||| відносна вологість повітря — не більше {0}; ||| relative air humidity — not more than {0};
+365 ||| за запитом ||| on request
+366 ||| реєстратор ||| surge counter
+367 ||| спрацьовування {0} ||| of operation {0}
+368 ||| температура навколишнього середовища від {0} до {1} °С; ||| ambient temperature from {0} to {1} °C;
+369 ||| типові виконання ||| typical versions
+370 ||| уточнюйте ||| please clarify
+371 ||| характеристики ||| specifications
+372 ||| – {0} А ||| – {0} A
+373 ||| – у сухому стані; ||| – dry;
+374 ||| – під дощем ||| – wet
+375 ||| — варіант виконання опорного затискача ||| — version of the support clamp
+376 ||| — витримувана напруга грозового імпульсу, кВ ||| — lightning impulse withstand voltage, kV
+377 ||| — клас напруги мережі, кВ ||| — network voltage class, kV
+378 ||| — кліматичне виконання та категорія розміщення ||| — climatic version and placement category
+379 ||| — кількість затискуваних проводів ||| — number of clamped wires
+380 ||| — конструктивне виконання ||| — design version
+381 ||| — конфігурація опорного фланця ||| — support flange configuration
+382 ||| — кремнійорганічна гума (матеріал оболонки) ||| — silicone rubber (housing material)
+383 ||| — матеріал оболонки (кремнійорганічна гума) ||| — housing material (silicone rubber)
+384 ||| — мінімальна руйнівна сила при вигині, кН ||| — minimum breaking force in bending, kN
+385 ||| — мінімальна руйнівна сила при вигині, кН ||| — minimum breaking force in bending, kN
+386 ||| — модифікація конструкції ||| — design modification
+387 ||| — найбільша тривало допустима робоча напруга, кВ ||| — maximum continuous operating voltage, kV
+388 ||| — нелінійний ||| — non-linear
+389 ||| — номінальна напруга лінії, кВ ||| — nominal line voltage, kV
+390 ||| — номінальна напруга, кВ ||| — rated voltage, kV
+391 ||| — номінальний розрядний струм, кА ||| — nominal discharge current, kA
+392 ||| — обмежувач ||| — arrester
+393 ||| — опорний ||| — post-type
+394 ||| — опція повороту опорного фланця на {0} ||| — option of rotating the support flange by {0}
+395 ||| — перенапруги ||| — overvoltage
+396 ||| — підвісне виконання (опорний затискач розташований внизу) ||| — suspended version (the support clamp is at the bottom)
+397 ||| — підвісне виконання (опорний затискач розташований внизу) ||| — suspended version (the support clamp is at the bottom)
+398 ||| — пропускна здатність, А ||| — current-carrying capacity, A
+399 ||| — руйнівна сила при розтягуванні, кН ||| — breaking force in tension, kN
+400 ||| — район за ступенем забрудненості атмосфери ({0}) ||| — area by atmospheric pollution degree ({0})
+401 ||| — ступінь забрудненості атмосфери ||| — atmospheric pollution degree
+402 ||| — стрижневий ||| — rod-type
+403 ||| — стрижневий підвісний лінійний ||| — rod-type suspension line
+404 ||| — струм пропускної здатності, А ||| — current-carrying capacity current, A
+405 ||| — суцільнолита захисна оболонка ||| — monolithic protective housing
+406 ||| — шинна опора з полімерною ізоляцією ||| — busbar support with polymer insulation
+407 ||| * За цією моделлю у вихідних даних є розбіжності; спірні значення в картці позначені «уточнюйте». Зверніться до нас по точні дані. ||| * The source data for this model contain discrepancies; disputed values in the card are marked "please clarify". Contact us for exact data.
+408 ||| H стандартно {0} мм. На вимогу замовника цей розмір може бути збільшений до {1} ||| H is {0} mm as standard. At the customer's request this dimension can be increased up to {1}
+409 ||| {0} ({1}) на напругу {2} кВ: технічні дані та ціна за запитом. Поставки по Україні. ||| {0} ({1}) for {2} kV: technical data and price on request. Delivery across Ukraine.
+410 ||| {0} ({1}, розрядники) {2} кВ: технічні характеристики, типи за пропускною здатністю, варіанти позначення. Поставки по Україні. ||| {0} ({1}, arresters) {2} kV: technical specifications, types by current-carrying capacity, designation variants. Delivery across Ukraine.
+411 ||| {0} ({1}, розрядники) на напругу {2} кВ: {3} моделей, найбільша робоча напруга, пропускна здатність, характеристики, варіанти позначення та аналоги, креслення. Поставки по Україні. ||| {0} ({1}, arresters) for {2} kV: {3} models, maximum operating voltage, current-carrying capacity, specifications, designation variants and equivalents, drawings. Delivery across Ukraine.
+412 ||| = ||| =
+413 ||| {0} і {1}:{2} на лінійні підвісні стрижневі полімерні ізолятори — файли для завантаження. ||| {0} and {1}:{2} for polymer rod-type line suspension insulators — files for download.
+414 ||| {0} комплектуються реєстратором спрацьовувань {1}, або системами моніторингу ||| {0} can be equipped with the surge counter {1}, or with monitoring systems
+415 ||| {0} на напругу {1}, {2} і {3} кВ, а також {4} і {5} кВ із проколювальним затискачем: таблиці характеристик, варіанти позначення, креслення. Поставки по Україні. ||| {0} for {1}, {2} and {3} kV, and also {4} and {5} kV with a piercing clamp: specification tables, designation variants, drawings. Delivery across Ukraine.
+416 ||| {0} повністю взаємозамінні з порцеляновими аналогами, тому заміну можна виконувати без зміни конструкції обладнання. Мала вага дозволяє заощаджувати на металоконструкціях при виробництві роз'єднувачів і при будівництві фундаментів підстанційного обладнання. ||| {0} are fully interchangeable with porcelain equivalents, so replacement can be carried out without changing the equipment design. Low weight saves on metal structures in the manufacture of disconnectors and in the construction of foundations for substation equipment.
+417 ||| {0} розрядна напруга у забрудненому та зволоженому стані, кВ (питома провідність) ||| {0} discharge voltage in polluted and wetted condition, kV (specific conductivity)
+418 ||| {0}, {1} , {2} виконання {3}, {4}, {5} виконання {6}, {7}, {8}, {9}, {10} ||| {0}, {1} , {2} version {3}, {4}, {5} version {6}, {7}, {8}, {9}, {10}
+419 ||| = ||| =
+420 ||| {0}, {1}, {2}, {3}, {4}, Заміна вентильних розрядників {5} і {6} ||| {0}, {1}, {2}, {3}, {4}, Replacement of valve-type arresters {5} and {6}
+421 ||| {0}, {1}, {2}, {3}, {4}, Застосовуються для заміни вентильних розрядників {5} і {6} ||| {0}, {1}, {2}, {3}, {4}, Used to replace valve-type arresters {5} and {6}
+422 ||| {0}: руйнівна сила {1} кН, напруга {2} кВ, модифікація А, для районів до {3} ||| {0}: breaking force {1} kN, voltage {2} kV, modification A, for areas up to {3}
+423 ||| {0}: руйнівна сила на вигин {1} кН, напруга {2} кВ, грозовий імпульс {3} кВ, район {4}, виконання {5} ||| {0}: breaking bending force {1} kN, voltage {2} kV, lightning impulse {3} kV, area {4}, version {5}
+424 ||| {0}; {1}; {2}; {3} – числові значення, що лежать у зазначеному діапазоні та залежать від значення А (на вимогу замовника). ||| {0}; {1}; {2}; {3} – numerical values lying within the stated range and depending on the value of A (at the customer's request).
+425 ||| «Малюнок №» — номер малюнка на кресленні ({0} — мал. {1}, {2} — мал. {3}, {4} — мал. {5}, {6} — мал. {7}). ||| "Figure No." is the figure number on the drawing ({0} — fig. {1}, {2} — fig. {3}, {4} — fig. {5}, {6} — fig. {7}).
+426 ||| Альтернативні назви: {0}, {1}, {2}, {3} Напруга від {4} до {5} кВ. Усього в каталозі {6} моделей. ||| Alternative names: {0}, {1}, {2}, {3} Voltage from {4} to {5} kV. Total in the catalogue: {6} models.
+427 ||| Понад {0} років експлуатації на енергопідприємствах України та світу ||| More than {0} years of operation at power utilities in Ukraine and worldwide
+428 ||| У каталозі представлені шинні опори для класів напруги {0}, {1}, {2}, {3}, {4}, {5} і {6} кВ. Підбір виконання здійснюється за класом напруги, типом ізоляції, механічним навантаженням, діаметром і маркою проводу, установчими розмірами та умовами експлуатації об'єкта. ||| The catalogue contains busbar supports for voltage classes {0}, {1}, {2}, {3}, {4}, {5} and {6} kV. The version is selected by voltage class, insulation type, mechanical load, wire diameter and grade, mounting dimensions and operating conditions of the site.
+429 ||| Ввід {0} кВ, Лінійний ввід {1} кВ, Ввід {2} кВ повітря-повітря, Сухий ввід {3} кВ ||| {0} kV bushing, {1} kV line bushing, {2} kV air-to-air bushing, {3} kV dry bushing
+430 ||| Високовольтні вводи {0} для бакових вимикачів {1} кВ — {2} ||| High-voltage bushings {0} for tank-type circuit breakers {1} kV — {2}
+431 ||| Високовольтні вводи {0} з посиленою ізоляцією для вимикачів {1} кВ ||| High-voltage bushings {0} with reinforced insulation for {1} kV circuit breakers
+432 ||| Високовольтні вводи {0} з посиленою ізоляцією для вимикачів {1} кВ — {2} ||| High-voltage bushings {0} with reinforced insulation for {1} kV circuit breakers — {2}
+433 ||| Високовольтні вводи для масляних вимикачів {0} кВ конденсаторного типу з {1} ізоляцією. ||| High-voltage bushings for {0} kV oil circuit breakers, condenser type with {1} insulation.
+434 ||| Взаємозамінний з: {0}, {1}, {2}, колонки вентильних розрядників {3} + {4} ||| Interchangeable with: {0}, {1}, {2}, columns of valve-type arresters {3} + {4}
+435 ||| Взаємозамінність опорних ізоляторів {0} і порцелянових {1}, {2}, {3}, {4} — {5} ||| Interchangeability of {0} post insulators and porcelain {1}, {2}, {3}, {4} — {5}
+436 ||| Можливе виготовлення обмежувачів під певні вимоги замовника. «А» — найбільша тривало допустима робоча напруга; {0} — числові значення, що залежать від А. ||| Arresters can be manufactured to specific customer requirements. "A" is the maximum continuous operating voltage; {0} are numerical values depending on A.
+437 ||| Витримувана напруга промислової частоти в забрудненому та зволоженому стані при питомій поверхневій провідності шару забруднення ({0}) мкСм, кВ, не менше ||| Power-frequency withstand voltage in polluted and wetted condition at a specific surface conductivity of the pollution layer ({0}) µS, kV, not less than
+438 ||| Витримувана напруга промислової частоти в забрудненому та зволоженому стані при питомій поверхневій провідності забрудненого шару ({0}) мкСм, не менше ||| Power-frequency withstand voltage in polluted and wetted condition at a specific surface conductivity of the polluted layer ({0}) µS, not less than
+439 ||| Витримувана напруга промислової частоти в сухому стані ||| Power-frequency withstand voltage, dry
+440 ||| Витримуваний імпульсний струм прямокутної форми {0} мс – {1} А ||| Rectangular impulse withstand current {0} ms – {1} A
+441 ||| Високовольтні вводи {0} ({1}) для бакових вимикачів {2} кВ {3}, {4}, {5}, {6}, {7}, {8} на струми {9} А: розміри h, L, {10}, {11}, електричні характеристики, креслення. Поставки по Україні. ||| High-voltage bushings {0} ({1}) for tank-type circuit breakers {2} kV {3}, {4}, {5}, {6}, {7}, {8} for currents of {9} A: dimensions h, L, {10}, {11}, electrical specifications, drawing. Delivery across Ukraine.
+442 ||| Високовольтні вводи {0} являють собою вводи для бакових вимикачів на {1} кВ {2}, призначені для заміни як оригінальних вводів, що постачаються заводами-виробниками вимикачів, так і вводів таких типів: {3} і {4} тощо, і виготовляються на струми {5} А. ||| High-voltage bushings {0} are bushings for tank-type circuit breakers rated {1} kV {2}, intended to replace both the original bushings supplied by the circuit breaker manufacturers and bushings of the following types: {3} and {4}, etc., and are manufactured for currents of {5} A.
+443 ||| Високовольтні вводи {0} являють собою вводи з посиленою ізоляцією для бакових вимикачів на {1}; завдяки унікальній технології розподілу електричного поля вводи мають триваліший строк служби і можуть експлуатуватися в екстремальних умовах. ||| High-voltage bushings {0} are bushings with reinforced insulation for tank-type circuit breakers rated {1}; thanks to a unique electric field grading technology the bushings have a longer service life and can be operated in extreme conditions.
+444 ||| Високовольтні вводи {0} з посиленою ізоляцією для бакових вимикачів {1} кВ: типи, розміри h, L, {2}, {3}, електричні характеристики, креслення. Поставки по Україні. ||| High-voltage bushings {0} with reinforced insulation for tank-type circuit breakers {1} kV: types, dimensions h, L, {2}, {3}, electrical specifications, drawing. Delivery across Ukraine.
+445 ||| Габаритні креслення ізоляторів — у {0} (відкриються в новій вкладці). ||| Dimensional drawings of the insulators are in {0} (opens in a new tab).
+446 ||| Дані відповідають таблицям на сторінках каталогу опорних ізоляторів ||| The data correspond to the tables on the pages of the post insulator catalogue
+447 ||| Якщо потрібної моделі немає у списку, зв'яжіться з нами — підберемо ізолятор. ||| If the model you need is not in the list, contact us — we will select an insulator.
+448 ||| Залізничні ізолятори мають понад {0} років досвіду експлуатації в контактній мережі електрифікованих залізниць України, ближнього та дальнього зарубіжжя, мають безліч позитивних відгуків від споживачів. ||| Railway insulators have more than {0} years of operating experience in the overhead contact system of electrified railways in Ukraine and abroad, and have received many positive reviews from consumers.
+449 ||| Заміна — кількість полімерних ізоляторів, що замінюють скляну гірлянду зазначеного типу. Для моделей із «—» уточнюйте підбір. ||| Replacement is the number of polymer insulators that replace a glass string of the stated type. For models with "—", please clarify the selection with us.

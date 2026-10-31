@@ -1,0 +1,150 @@
+150 ||| Клас напруги мережі ||| Network voltage class
+151 ||| Клас напруги мережі, кВ ||| Network voltage class, kV
+152 ||| Клас розряду лінії ||| Line discharge class
+153 ||| Класифікаційна напруга при струмі не менше {0} мА, кВ ||| Classification voltage at a current of not less than {0} mA, kV
+154 ||| Кліматичне виконання ({0}) ||| Climatic version ({0})
+155 ||| Код {0} ||| Code {0}
+156 ||| Колонка {0} + {1} ||| Column {0} + {1}
+157 ||| Колонка {0}, {1} ||| Column {0}, {1}
+158 ||| Колонка ізоляторів, {0} шт. ||| Insulator column, {0} pcs.
+159 ||| Консольно-фіксаторний ізолятор ||| Cantilever-registration insulator
+160 ||| Консольний ізолятор ||| Cantilever insulator
+161 ||| Контакти ||| Contacts
+162 ||| Контрольована кількість спрацьовувань реєстратора – {0} ||| Monitored number of counter operations – {0}
+163 ||| Лінійні вводи {0} кВ ||| {0} kV line bushings
+164 ||| Лінійні ізолятори ||| Line insulators
+165 ||| Лінійні ізолятори {0} ({1}) ||| Line insulators {0} ({1})
+166 ||| Лінійні ізолятори {0} ({1}) {2}, {3}, {4} кН — {5} ||| Line insulators {0} ({1}) {2}, {3}, {4} kN — {5}
+167 ||| Лінійні ізолятори {0} ({1}), {2} кН ||| Line insulators {0} ({1}), {2} kN
+168 ||| Лінійні ізолятори {0} кН ||| Line insulators {0} kN
+169 ||| Логотип {0} ||| {0} logo
+170 ||| Мала вага ||| Low weight
+171 ||| Марка проводу ||| Wire grade
+172 ||| Маса обмежувача, не більше ||| Arrester mass, not more than
+173 ||| Маса – {0} кг ||| Mass – {0} kg
+174 ||| Маса, кг, не більше ||| Mass, kg, not more than
+175 ||| Маса, не більше ||| Mass, not more than
+176 ||| Маса, не більше, кг ||| Mass, not more than, kg
+177 ||| Матеріал шин і струмопроводу ||| Material of busbars and current-carrying part
+178 ||| Мідь ||| Copper
+179 ||| Меню ||| Menu
+180 ||| Мін. руйнівна сила при вигині, кН ||| Min. breaking force in bending, kN
+181 ||| Мін. руйнівний крутний момент, кН·м ||| Min. breaking torque, kN·m
+182 ||| Мінімальна руйнівна сила на вигин ||| Minimum breaking bending force
+183 ||| Мінімальна руйнівна сила на вигин, кН ||| Minimum breaking bending force, kN
+184 ||| Мінімальне замовлення — від {0} штуки, ціна заводу-виробника ||| Minimum order — from {0} piece, manufacturer's price
+185 ||| Моделей: {0} ||| Models: {0}
+186 ||| Моделі ||| Models
+187 ||| Моделі {0} на {1} кВ ||| {0} models for {1} kV
+188 ||| Моделі та креслення ||| Models and drawings
+189 ||| Модель ||| Model
+190 ||| Нагору ||| Back to top
+191 ||| Назва ||| Name
+192 ||| Найбільша тривало допустима робоча напруга Uнр ||| Maximum continuous operating voltage Uc
+193 ||| Найбільша тривало допустима робоча напруга, кВ ||| Maximum continuous operating voltage, kV
+194 ||| Найменування характеристики ||| Characteristic
+195 ||| Напруга ||| Voltage
+196 ||| Напруга лінії ||| Line voltage
+197 ||| Напруга мережі – {0} кВ ||| Network voltage – {0} kV
+198 ||| Напруга, кВ ||| Voltage, kV
+199 ||| Натяжний ізолятор ||| Tension insulator
+200 ||| Не знайшли потрібний аналог? ||| Can't find the equivalent you need?
+201 ||| Необхідна довжина прохідної частини H ||| Required length of the lead-through part H
+202 ||| Номінальна напруга ||| Rated voltage
+203 ||| Номінальна напруга обмежувача ||| Arrester rated voltage
+204 ||| Номінальна напруга, кВ ||| Rated voltage, kV
+205 ||| Номінальний розрядний струм {0} мкс, кА ||| Nominal discharge current {0} µs, kA
+206 ||| Номінальний розрядний струм з формою хвилі {0} мкс, кА ||| Nominal discharge current, waveform {0} µs, kA
+207 ||| Номінальний струм ||| Rated current
+208 ||| Номінальний струм, А ||| Rated current, A
+209 ||| Потрібен ввід для вашого вимикача? ||| Need a bushing for your circuit breaker?
+210 ||| Потрібен підбір ізолятора? ||| Need help choosing an insulator?
+211 ||| Потрібен підбір або ціна заводу? ||| Need selection help or the manufacturer's price?
+212 ||| Потрібен підбір обмежувача? ||| Need help choosing an arrester?
+213 ||| Потрібен підбір розпірки? ||| Need help choosing a spacer?
+214 ||| Потрібен підбір шинної опори? ||| Need help choosing a busbar support?
+215 ||| Позначення ||| Designation
+216 ||| Позначення {0} ||| Designation {0}
+217 ||| Позначення згідно з {0} Р {1} ||| Designation according to {0} R {1}
+218 ||| Позначення інших виробників ||| Designations of other manufacturers
+219 ||| Загальні дані ||| General data
+220 ||| Обмежувачі {0} ||| {0} arresters
+221 ||| Обмежувачі перенапруги ||| Surge arresters
+222 ||| Обмежувачі перенапруги {0} ||| Surge arresters {0}
+223 ||| Обмежувачі перенапруги {0} ({1}, розрядники) ||| Surge arresters {0} ({1}, arresters)
+224 ||| Обмежувачі перенапруги {0} / {1} / {2} кВ ||| Surge arresters {0} / {1} / {2} kV
+225 ||| Обмежувачі перенапруги {0} кВ ||| {0} kV surge arresters
+226 ||| Обмежувачі перенапруги {0} кВ ({1}, розрядники) — {2} ||| {0} kV surge arresters ({1}, arresters) — {2}
+227 ||| Обмежувачі перенапруги {0} кВ — {1} ||| {0} kV surge arresters — {1}
+228 ||| Обмежувач перенапруги {0} кВ ||| {0} kV surge arrester
+229 ||| Опис ||| Description
+230 ||| Опорне ||| Post-type
+231 ||| Опорне виконання, {0} провід, {1} ||| Post-type version, {0} wire, {1}
+232 ||| Опорне виконання, {0} провід, {1}, {2} ||| Post-type version, {0} wire, {1}, {2}
+233 ||| Опорне виконання, {0} провід, фланець {1}, {2} ||| Post-type version, {0} wire, flange {1}, {2}
+234 ||| Опорне виконання, {0} провід, фланець {1}, {2}, {3} ||| Post-type version, {0} wire, flange {1}, {2}, {3}
+235 ||| Опорне виконання, {0} проводи, {1} ||| Post-type version, {0} wires, {1}
+236 ||| Опорне виконання, {0} проводи, {1}, {2} ||| Post-type version, {0} wires, {1}, {2}
+237 ||| Опорне виконання, {0} проводи, фланець {1}, {2} ||| Post-type version, {0} wires, flange {1}, {2}
+238 ||| Опорне виконання, {0} проводи, фланець {1}, {2}, {3} ||| Post-type version, {0} wires, flange {1}, {2}, {3}
+239 ||| Опорні ізолятори ||| Post insulators
+240 ||| Опорні ізолятори {0} ||| Post insulators {0}
+241 ||| Опорні ізолятори {0} ({1}) {2} кВ — {3} ||| Post insulators {0} ({1}) {2} kV — {3}
+242 ||| Опорні ізолятори {0} ({1}), аналог {2}, {3} кВ — {4} ||| Post insulators {0} ({1}), equivalent of {2}, {3} kV — {4}
+243 ||| Опорні ізолятори {0} кВ ||| {0} kV post insulators
+244 ||| Основні показники розпорок ||| Main parameters of the spacers
+245 ||| Залишити заявку ||| Send a request
+246 ||| Параметр ||| Parameter
+247 ||| На вимогу замовника ||| On customer request
+248 ||| Підвісне ||| Suspended
+249 ||| Підвісне виконання, {0} провід, {1} ||| Suspended version, {0} wire, {1}
+250 ||| Підвісне виконання, {0} провід, {1}, {2} ||| Suspended version, {0} wire, {1}, {2}
+251 ||| Підвісне виконання, {0} провід, фланець {1}, {2} ||| Suspended version, {0} wire, flange {1}, {2}
+252 ||| Підвісне виконання, {0} проводи, {1} ||| Suspended version, {0} wires, {1}
+253 ||| Підвісне виконання, {0} проводи, {1}, {2} ||| Suspended version, {0} wires, {1}, {2}
+254 ||| Підвісне виконання, {0} проводи, фланець {1}, {2} ||| Suspended version, {0} wires, flange {1}, {2}
+255 ||| Підвісний ізолятор ||| Suspension insulator
+256 ||| Показник ||| Parameter
+257 ||| Полімерні аналоги порцелянових ізоляторів ||| Polymer equivalents of porcelain insulators
+258 ||| Полімерний ізолятор ||| Polymer insulator
+259 ||| Переваги {0} ||| Advantages of {0}
+260 ||| Приклад ||| Example
+261 ||| Примітка ||| Note
+262 ||| Проводів ||| Wires
+263 ||| Продукція ||| Products
+264 ||| Промислова частота, кВ: у сухому стані ||| Power frequency, kV: dry
+265 ||| Промислова частота, кВ: під дощем ||| Power frequency, kV: wet
+266 ||| Пропускна здатність ||| Current-carrying capacity
+267 ||| Пропускна здатність обмежувача, А ||| Arrester current-carrying capacity, A
+268 ||| Пропускна здатність, А ||| Current-carrying capacity, A
+269 ||| Прохідні ізолятори ||| Lead-through insulators
+270 ||| Прохідні ізолятори {0}, {1} ||| Lead-through insulators {0}, {1}
+271 ||| Прохідні ізолятори та вводи ||| Lead-through insulators and bushings
+272 ||| Руйнівна механічна сила при вигині, кН, не менше ||| Breaking mechanical force in bending, kN, not less than
+273 ||| Розрядник {0}, {1}, {2}, {3}, {4}, {5} кВ, {6}, {7}, {8} ||| Arrester {0}, {1}, {2}, {3}, {4}, {5} kV, {6}, {7}, {8}
+274 ||| Район за ступенем забрудненості атмосфери ({0}) ||| Area by atmospheric pollution degree ({0})
+275 ||| Район експлуатації за ступенем забрудненості атмосфери {0} ||| Operating area by atmospheric pollution degree {0}
+276 ||| Район експлуатації за ступенем забрудненості атмосфери {0} ||| Operating area by atmospheric pollution degree {0}
+277 ||| Розкрийте потрібне виконання, щоб побачити параметри. ||| Expand the required version to see its parameters.
+278 ||| Розкрийте потрібну модель, щоб побачити параметри. ||| Expand the required model to see its parameters.
+279 ||| Розпірки міжфазні ізолювальні полімерні {0} ||| Polymer insulating phase spacers {0}
+280 ||| Розпірки міжфазні {0} ||| Phase spacers {0}
+281 ||| Реєстратор спрацьовування {0} ||| Surge counter {0}
+282 ||| Малюнок № ||| Figure No.
+283 ||| З проколювальним затискачем ||| With piercing clamp
+284 ||| Стандарт ||| Standard
+285 ||| Стандарти ||| Standards
+286 ||| Ступінь забруднення ({0}) за {1} ||| Pollution degree ({0}) according to {1}
+287 ||| Ступінь забруднення атмосфери ({0}) ||| Atmospheric pollution degree ({0})
+288 ||| Ступінь забрудненості атмосфери ({0}) за {1} ||| Atmospheric pollution degree ({0}) according to {1}
+289 ||| Буд. висота, мм ||| Structural height, mm
+290 ||| Будівельна висота, Нстр, мм ||| Structural height, Hstr, mm
+291 ||| Схема монтажу: ||| Installation diagram:
+292 ||| Схема встановлення {0} / {1} кВ із проколювальним затискачем на {2} ||| Installation diagram of {0} / {1} kV with piercing clamp on {2}
+293 ||| Таблиця моделей і креслення ||| Model table and drawings
+294 ||| Тангенс кута діелектричних втрат ||| Dielectric loss tangent
+295 ||| Тангенс кута діелектричних втрат, не більше ||| Dielectric loss tangent, not more than
+296 ||| Технічні дані — за запитом ||| Technical data — on request
+297 ||| Технічні характеристики ||| Technical specifications
+298 ||| Технічні характеристики виконань ||| Technical specifications of the versions
+299 ||| Технічні характеристики моделей ||| Technical specifications of the models

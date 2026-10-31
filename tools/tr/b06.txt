@@ -1,0 +1,2 @@
+598 ||| {0} з ізолювальним кронштейном і дисконектором ||| {0} with insulating bracket and disconnector
+599 ||| Креслення {0} з ізолювальним кронштейном і дисконектором ||| Drawing {0} with insulating bracket and disconnector

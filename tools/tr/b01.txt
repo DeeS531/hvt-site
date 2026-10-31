@@ -1,0 +1,150 @@
+0 ||| (діюче значення) ||| (RMS value)
+1 ||| (значення амплітуди прямокутного імпульсу {0} мкс) ||| (amplitude of the rectangular pulse, {0} µs)
+2 ||| * Розміри можуть змінюватися за погодженням із замовником. ||| * Dimensions may be changed by agreement with the customer.
+3 ||| * залежить від Н ||| * depends on H
+4 ||| / {0} кВ ||| / {0} kV
+5 ||| / {0} кН ||| / {0} kN
+6 ||| / Вводи {0} ||| / {0} bushings
+7 ||| / Вводи {0} з посиленою ізоляцією ||| / {0} bushings with reinforced insulation
+8 ||| / Взаємозамінність ізоляторів {0} ||| / Interchangeability of {0} insulators
+9 ||| / Документи ||| / Documents
+10 ||| / Ізолятори для контактної мережі ||| / Insulators for the overhead contact system
+11 ||| / Лінійні ізолятори ||| / Line insulators
+12 ||| / Обмежувачі перенапруги {0} ||| / Surge arresters {0}
+13 ||| / Опорні ізолятори {0} ||| / Post insulators {0}
+14 ||| / Прохідні ізолятори ||| / Lead-through insulators
+15 ||| / Міжфазні розпірки {0} ||| / Phase spacers {0}
+16 ||| / Шинні опори ||| / Busbar supports
+17 ||| L, мм* ||| L, mm*
+18 ||| Uнр, кВ ||| Uc (MCOV), kV
+19 ||| h, мм* ||| h, mm*
+20 ||| {0} ({1} мкСм) ||| {0} ({1} µS)
+21 ||| {0} (аналог {1}, {2}, Excount I, Excount {3} тощо) ||| {0} (equivalent to {1}, {2}, Excount I, Excount {3}, etc.)
+22 ||| {0} (друге виконання) ||| {0} (second version)
+23 ||| {0} А ||| {0} A
+24 ||| {0} з ізолювальним кронштейном і дисконектором ||| {0} with insulating bracket and disconnector
+25 ||| {0} виконання {1} ||| {0} version {1}
+26 ||| {0} виконання {1}, {2}, {3} виконання {4}, {5}, {6}, {7} ||| {0} version {1}, {2}, {3} version {4}, {5}, {6}, {7}
+27 ||| {0} виконань ||| {0} versions
+28 ||| {0} кВ ||| {0} kV
+29 ||| {0} кВ / {1} кВ ||| {0} kV / {1} kV
+30 ||| {0} кВ і {1} / {2} кВ ||| {0} kV and {1} / {2} kV
+31 ||| {0} кВ і {1} кВ ||| {0} kV and {1} kV
+32 ||| {0} кВ, {1} А ||| {0} kV, {1} A
+33 ||| {0} кВ, {1} А, повітря-повітря, {2} ||| {0} kV, {1} A, air-to-air, {2}
+34 ||| {0} кВ, {1} А, виконання {2}, квадратний фланець ||| {0} kV, {1} A, version {2}, square flange
+35 ||| {0} кВ, {1} А, овальний фланець ||| {0} kV, {1} A, oval flange
+36 ||| {0} кН — {1} ||| {0} kN — {1}
+37 ||| {0} комплектуються реєстратором спрацьовувань {1} ||| {0} can be equipped with the surge counter {1}
+38 ||| {0} моделей ||| {0} models
+39 ||| {0} проводи {1} ||| {0} wires {1}
+40 ||| {0} розрядна напруга повного грозового імпульсу, кВ ||| {0} full lightning impulse discharge voltage, kV
+41 ||| {0} з ізолювальним кронштейном і дисконектором ||| {0} with insulating bracket and disconnector
+42 ||| {0} шт. {1} ||| {0} pcs. {1}
+43 ||| {0} — {1} виконань ||| {0} — {1} versions
+44 ||| {0}, {1} кВ ||| {0}, {1} kV
+45 ||| {0}, {1}, {2}, {3} та аналогічні написання ||| {0}, {1}, {2}, {3} and similar spellings
+46 ||| {0}, {1}, {2}, {3}, {4}, {5}, {6} та аналогічні написання ||| {0}, {1}, {2}, {3}, {4}, {5}, {6} and similar spellings
+47 ||| {0}, {1}, {2}, колонки вентильних розрядників {3} + {4} ||| {0}, {1}, {2}, columns of valve-type arresters {3} + {4}
+48 ||| {0}, обмежувач {1} ||| {0}, arrester {1}
+49 ||| {0}: креслення і схема ||| {0}: drawing and diagram
+50 ||| Ізолятор {0} ||| Insulator {0}
+51 ||| Ізолятор Полімерний, {0} ||| Polymer insulator, {0}
+52 ||| Ізолятор Полімерний, {0}, {1}, {2} ||| Polymer insulator, {0}, {1}, {2}
+53 ||| Ізолятор Полімерний, {0}, {1}, {2}, {3} ||| Polymer insulator, {0}, {1}, {2}, {3}
+54 ||| Ізолятор Полімерний, {0}, {1}, {2}, {3}, {4} ||| Polymer insulator, {0}, {1}, {2}, {3}, {4}
+55 ||| Ізолятор Полімерний, {0}, {1}, {2}, {3}, {4}, {5}, {6} ||| Polymer insulator, {0}, {1}, {2}, {3}, {4}, {5}, {6}
+56 ||| Ізолятор фарфоровий, {0}, {1}, {2}, {3} ||| Porcelain insulator, {0}, {1}, {2}, {3}
+57 ||| А ||| A
+58 ||| А, Б… ||| A, B…
+59 ||| Альтернативні назви ||| Alternative names
+60 ||| Аналог {0} ||| Equivalent of {0}
+61 ||| Аналоги інших виробників: ||| Equivalents from other manufacturers:
+62 ||| Аналоги: {0}, {1}, {2} ||| Equivalents: {0}, {1}, {2}
+63 ||| Стійкість до вандалізму ||| Vandal resistance
+64 ||| Варіанти позначення ||| Designation variants
+65 ||| Варіанти позначення та аналоги ||| Designation variants and equivalents
+66 ||| Варіанти позначення полімерного аналога ||| Designation variants of the polymer equivalent
+67 ||| Варіанти позначення полімерного ізолятора ||| Designation variants of the polymer insulator
+68 ||| Варіанти позначення полімерних аналогів: ||| Designation variants of polymer equivalents:
+69 ||| Варіанти позначення полімерних ізоляторів {0} ||| Designation variants of {0} polymer insulators
+70 ||| Варіанти позначення: ||| Designation variants:
+71 ||| Вводи {0} ||| {0} bushings
+72 ||| Вводи {0} з посиленою ізоляцією ||| {0} bushings with reinforced insulation
+73 ||| Високовольтні вводи {0} для бакових вимикачів {1} кВ ||| High-voltage bushings {0} for tank-type circuit breakers {1} kV
+74 ||| Високовольтні вводи {0} кВ ||| {0} kV high-voltage bushings
+75 ||| Високовольтні вводи для вимикачів {0} кВ ||| High-voltage bushings for {0} kV circuit breakers
+76 ||| Взаємозамінний з колонкою {0} ({1}) + {2} ({3}) ||| Interchangeable with the column {0} ({1}) + {2} ({3})
+77 ||| Взаємозамінний з колонкою {0} + {1} ||| Interchangeable with the column {0} + {1}
+78 ||| Взаємозамінний з колонкою ізоляторів {0}, {1} шт. ||| Interchangeable with a column of {0} insulators, {1} pcs.
+79 ||| Взаємозамінний з: ||| Interchangeable with:
+80 ||| Взаємозамінність ізоляторів {0} ||| Interchangeability of {0} insulators
+81 ||| Взаємозамінність опорних ізоляторів {0} ||| Interchangeability of {0} post insulators
+82 ||| Відео ||| Video
+83 ||| Можливі варіанти позначення: ||| Possible designation variants:
+84 ||| Усі {0} ||| All {0}
+85 ||| Усі права захищені. ||| All rights reserved.
+86 ||| Уся продукція ||| All products
+87 ||| Оберіть клас навантаження ||| Select the load class
+88 ||| Оберіть напругу ||| Select the voltage
+89 ||| Витримувана напруга грозового імпульсу «{0}» ||| Lightning impulse withstand voltage «{0}»
+90 ||| Витримувана напруга промислової частоти під дощем ||| Power-frequency withstand voltage, wet
+91 ||| Витримувана напруга промислової частоти, кВ, не менше: ||| Power-frequency withstand voltage, kV, not less than:
+92 ||| Витримуваний імпульс {0} мкс, кА ||| Withstand impulse {0} µs, kA
+93 ||| Витримуваний струм імпульсу {0} мкс – {1} кА ||| Withstand impulse current {0} µs – {1} kA
+94 ||| Висока гідрофобність ||| High hydrophobicity
+95 ||| Висота встановлення над рівнем моря, не більше ||| Installation altitude above sea level, not more than
+96 ||| Габаритне креслення {0} кВ ||| Dimensional drawing, {0} kV
+97 ||| Габаритне креслення вводу: розміри h, L, {0}, {1} ||| Bushing dimensional drawing: dimensions h, L, {0}, {1}
+98 ||| Габарити ||| Dimensions
+99 ||| Головна ||| Home
+100 ||| Грозовий імпульс {0}, кВ ||| Lightning impulse {0}, kV
+101 ||| Діаметр провода, що затискається, мм ||| Diameter of the clamped wire, mm
+102 ||| Діапазон вимірювання змінного струму провідності – {0} мА ||| Measuring range of AC conduction current – {0} mA
+103 ||| Довжина шляху витоку зовнішньої ізоляції, не менше ||| Creepage distance of external insulation, not less than
+104 ||| Довжина шляху витоку зовнішньої/внутрішньої ізоляції, не менше ||| Creepage distance of external/internal insulation, not less than
+105 ||| Довжина шляху витоку внутрішньої ізоляції, не менше ||| Creepage distance of internal insulation, not less than
+106 ||| Довжина шляху витоку мм, не менше ||| Creepage distance, mm, not less than
+107 ||| Довжина шляху витоку, мм ||| Creepage distance, mm
+108 ||| Довжина шляху витоку, мм, не менше ||| Creepage distance, mm, not less than
+109 ||| Довжина шляху витоку, не менше ||| Creepage distance, not less than
+110 ||| Для лінійних ізоляторів ||| For line insulators
+111 ||| Документ ||| Document
+112 ||| Документи ||| Documents
+113 ||| Документи та стандарти ||| Documents and standards
+114 ||| Документи та стандарти: {0}, {1} — {2} ||| Documents and standards: {0}, {1} — {2}
+115 ||| Од. вим. ||| Unit
+116 ||| Од. вим. ||| Unit
+117 ||| Заміна (шт.) ||| Replaces (pcs.)
+118 ||| Замінює порцелянові: ||| Replaces porcelain:
+119 ||| Замінюють порцеляновий прохідний ізолятор: ||| Replace the porcelain lead-through insulator:
+120 ||| Значення ||| Value
+121 ||| Значно вища вибухобезпечність, ніж у порцелянових {0} ||| Significantly higher explosion safety than porcelain {0}
+122 ||| Ізолятор {0} ||| Insulator {0}
+123 ||| Ізолятор Полімерний, {0}, {1} ||| Polymer insulator, {0}, {1}
+124 ||| Ізолятор Полімерний, {0}, {1}, {2} ||| Polymer insulator, {0}, {1}, {2}
+125 ||| Ізолятор С {0}, C {1}, С {2} ||| Insulator С {0}, C {1}, С {2}
+126 ||| Ізолятор опорний {0} ||| Post insulator {0}
+127 ||| Ізолятор полімерний, {0}, {1}, {2}, {3}, {4}, {5} ||| Polymer insulator, {0}, {1}, {2}, {3}, {4}, {5}
+128 ||| Ізолятори {0} ||| {0} insulators
+129 ||| Ізолятори {0} ({1}) ||| {0} insulators ({1})
+130 ||| Ізолятори {0}, {1}, {2}, {3}, {4} ||| Insulators {0}, {1}, {2}, {3}, {4}
+131 ||| Ізолятори опорні {0} кВ ||| {0} kV post insulators
+132 ||| Ізолятори опорні стрижневі полімерні {0} ||| Polymer rod post insulators {0}
+133 ||| Полімерні ізолятори для контактної мережі залізниць ||| Polymer insulators for the railway overhead contact system
+134 ||| Імпульс великого струму, що витримується, {0} мкс ||| High-current impulse withstand, {0} µs
+135 ||| Імпульс струму, що витримується, {0} мкс ||| Current impulse withstand, {0} µs
+136 ||| Імпульсна напруга, кВ ||| Impulse voltage, kV
+137 ||| Інформація ||| Information
+138 ||| Виконання ||| Version
+139 ||| Виконання та проводи ||| Versions and wires
+140 ||| Виконання на замовлення ||| Custom versions
+141 ||| Виконання шинних опор ||| Busbar support versions
+142 ||| Випробування {0} кВ на вибухобезпечність ||| Explosion-safety test of {0} kV
+143 ||| Випробувальна напруга повного грозового імпульсу, кВ ||| Full lightning impulse test voltage, kV
+144 ||| До обмежувачів поставляються реєстратори спрацьовування: ||| Surge counters are supplied for the arresters:
+145 ||| Як читається позначення ||| How to read the designation
+146 ||| Каталог за класами навантаження ||| Catalogue by load class
+147 ||| Каталог за класами напруги ||| Catalogue by voltage class
+148 ||| Якість ||| Quality
+149 ||| Клас напруги лінії ||| Line voltage class

@@ -1,0 +1,22 @@
+ПРОВЕРЕНО (открылось): 
+1) UA/index-2-lkcn.html  — линейные ЛКЦ, текст на украинском
+2) UA/index-2-jdn.html   — контактная сеть ж/д: 14 PDF в /UA/chertejy/ (88–101)
+3) UA/index-2-PPC.html   — проходные ППЦ: таблица моделей 10, 20, 35, 110 кВ;
+                           отдельные страницы моделей (PPC_10_630.html, PPC_10_1000.html ... IPPU_10_4000.html,
+                           izolyator-prohidniy-polimerniy-35-3150-ukhl1.html, ...110-800-4000-ukhl1.html);
+                           PDF: chertejy/81.pdf (ППЦ-10/630-12,5)
+4) UA/opn-obmezhuvachi-perenaprug.html — ОПН: общая страница, таблица моделей 3–35 кВ, форма заявки
+                           отдельные страницы по напряжениям: opn-klasu-naprugy-0-22-kv-zminnogo-strumu.html,
+                           opn-klasu-naprugy-3-kv-zminnogo-strumu.html, ...-6-kv, ...-10-kv, ...-15-kv, ...-20-kv,
+                           ...-35-kv, ...-110-kv, ...-150-kv, ...-220-kv, ...-330-kv
+                           (+ index-2-opnn33_ua.html, index-2-opnn27_ua.html, JCQF2_ua.html, JCQF3_ua.html)
+5) UA/index-2-vk35.html  — ВК-35: таблица типов (ВК-35 … ВК-35-09), электрические характеристики;
+                           также страница index-2-vk35u.html (ГКВПШ, усиленная изоляция) — ещё не открыта
+6) shinnyye-opory.html   — каталог ШОП/ШО 10–330 кВ: отдельные страницы
+                           shinnyye-opory-10-kV.html, -20-kV, -35-kV, -110-kV, -150-kV, -220-kV, -330-kV
+
+ЕЩЁ НЕ ПРОВЕРЕНО: все страницы opn-klasu-naprugy-* и ППЦ-подстраницы, shinnyye-opory-*-kV,
+vk35u, osk*, ОСК-категория, JCQF2/3, features-grid (РМИ), contact, cable (index-2-lkc).
+
+ФОРМЫ НА САЙТЕ: ОПН и шинные опоры — заявка: Имя/название компании, Электронная почта,
+Телефон, Количество, Примечания. (Для нашей формы можно добавить поле «Количество» по желанию.)
