@@ -200,3 +200,15 @@
     });
   });
 })();
+
+// 9. Главная: «провод» на стыке блоков прорисовывается, когда блок появляется на экране
+(function () {
+  'use strict';
+  var edges = document.querySelectorAll('.edge');
+  if (!edges.length) return;
+  if (!('IntersectionObserver' in window)) { edges.forEach(function (e) { e.classList.add('edge-in'); }); return; }
+  var io = new IntersectionObserver(function (items) {
+    items.forEach(function (it) { if (it.isIntersecting) { it.target.classList.add('edge-in'); io.unobserve(it.target); } });
+  }, { rootMargin: '0px 0px -25% 0px', threshold: 0 });
+  edges.forEach(function (e) { io.observe(e); });
+})();
