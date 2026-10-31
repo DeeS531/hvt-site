@@ -28,15 +28,37 @@ def nav_li():
         sub = ''
         if subs:
             sub = '<ul class="mega-sub">' + ''.join(f'<li><a href="{h}">{escape(t)}</a></li>' for t, h in subs) + '</ul>'
-        items.append(f'<li{" class=\"has-sub\"" if subs else ""}><a href="{href}">{escape(title)}</a>{sub}</li>')
+        tg = '<button type="button" class="mega-toggle sub-toggle" aria-label="Раскрыть" aria-expanded="false"><i class="fa fa-angle-down"></i></button>' if subs else ''
+        items.append(f'<li{" class=\"has-sub\"" if subs else ""}><a href="{href}">{escape(title)}</a>{tg}{sub}</li>')
     return ('<li class="nav-item nav-mega"><a class="nav-link" href="index.html#catalog" data-i18n="nav_products">Продукция</a>'
+            '<button type="button" class="mega-toggle" aria-label="Раскрыть" aria-expanded="false"><i class="fa fa-angle-down"></i></button>'
             '<ul class="mega-menu">' + ''.join(items) + '</ul></li><!--/nav-mega-->')
+
+LANG_DD = ('<div class="lang-dd d-lg-none ms-auto me-2"><button type="button" class="lang-dd-btn" aria-haspopup="true" aria-expanded="false" aria-label="Language">'
+           '<i class="fa fa-globe"></i><span data-lang-current>RU</span><i class="fa fa-angle-down lang-caret"></i></button>'
+           '<ul class="lang-dd-list" hidden><li><button type="button" data-lang-btn="ru">RU</button></li><li><button type="button" data-lang-btn="uk">UA</button></li>'
+           '<li><button type="button" data-lang-btn="en">EN</button></li></ul></div>')
 
 def patch_header(html):
     new = nav_li()
     if '<!--/nav-mega-->' in html:
-        return re.sub(r'<li class="nav-item nav-mega">.*?<!--/nav-mega-->', lambda m: new, html, flags=re.S)
-    return re.sub(r'<li class="nav-item"><a class="nav-link" href="(?:index\.html)?#catalog" data-i18n="nav_products">Продукция</a></li>', lambda m: new, html)
+        html = re.sub(r'<li class="nav-item nav-mega">.*?<!--/nav-mega-->', lambda m: new, html, flags=re.S)
+    else:
+        html = re.sub(r'<li class="nav-item"><a class="nav-link" href="(?:index\.html)?#catalog" data-i18n="nav_products">Продукция</a></li>', lambda m: new, html)
+    # выбор языка на мобильных: выпадающий список вместо трёх кнопок
+    html = re.sub(r'<span class="lang-switch lang-switch-mobile d-lg-none ms-auto me-2".*?</span>', lambda m: LANG_DD, html, flags=re.S)
+    # меню-шторкой управляет js/main.js, а не Bootstrap collapse
+    html = html.replace(' data-bs-toggle="collapse" data-bs-target="#mainMenu"', '')
+    # длинный e-mail в верхней полосе: на узких экранах — коротко «Email»
+    html = html.replace('<i class="fa fa-envelope me-1"></i> highvoltagetechnologies.ua@gmail.com</a>', '<i class="fa fa-envelope me-1"></i> <span class="c-full">highvoltagetechnologies.ua@gmail.com</span><span class="c-short">Email</span></a>')
+    return html
+
+FOOTER = ('<footer class="site-footer">\n  <div class="container text-center">\n'
+          '    <span>© 2026 ТЕХНОЛОГИИ ВЫСОКОГО НАПРЯЖЕНИЯ. <span data-i18n="footer_rights">Все права защищены.</span></span>\n  </div>\n</footer>')
+
+def patch_footer(html):
+    html = re.sub(r'<footer class="site-footer">.*?</footer>', lambda m: FOOTER, html, flags=re.S)
+    return html
 
 def side_nav(group_href, current=None):
     """боковой список подгрупп группы (как на старом сайте)"""

@@ -139,3 +139,64 @@
   window.addEventListener('hashchange', openTarget);
   openTarget();
 })();
+
+// 8. Меню-шторка (<992px), стрелки раскрытия, выбор языка, строки каталога как ссылки
+(function () {
+  'use strict';
+  var root = document.documentElement;
+  var menu = document.getElementById('mainMenu');
+  var toggler = document.querySelector('.navbar-toggler');
+  var L = { ru: { close: 'Закрыть меню', open: 'Раскрыть', fold: 'Свернуть' }, uk: { close: 'Закрити меню', open: 'Розгорнути', fold: 'Згорнути' }, en: { close: 'Close menu', open: 'Expand', fold: 'Collapse' } };
+  function lang() { var l = root.lang; return L[l] ? l : 'ru'; }
+
+  if (menu && toggler) {
+    var overlay = document.createElement('div'); overlay.className = 'nav-overlay'; (document.querySelector('.site-header') || document.body).appendChild(overlay);
+    var head = document.createElement('div'); head.className = 'drawer-head';
+    head.innerHTML = '<i class="fa fa-bolt bolt" aria-hidden="true"></i><button type="button" class="drawer-close" aria-label="Close"><i class="fa fa-times"></i></button>';
+    menu.insertBefore(head, menu.firstChild);
+    var icon = toggler.querySelector('i');
+    function setOpen(on) {
+      menu.classList.toggle('menu-open', on); root.classList.toggle('nav-open', on);
+      toggler.setAttribute('aria-expanded', on ? 'true' : 'false');
+      if (icon) { icon.classList.toggle('fa-bars', !on); icon.classList.toggle('fa-times', on); }
+      head.querySelector('.drawer-close').setAttribute('aria-label', L[lang()].close);
+    }
+    toggler.addEventListener('click', function () { setOpen(!menu.classList.contains('menu-open')); });
+    overlay.addEventListener('click', function () { setOpen(false); });
+    head.querySelector('.drawer-close').addEventListener('click', function () { setOpen(false); });
+    document.addEventListener('keydown', function (e) { if (e.key === 'Escape') setOpen(false); });
+    window.addEventListener('resize', function () { if (window.innerWidth >= 992) setOpen(false); });
+    menu.addEventListener('click', function (e) {
+      var a = e.target.closest('a[href]');
+      if (a && !a.closest('.mega-toggle')) setOpen(false);
+    });
+  }
+
+  // стрелки раскрытия пунктов меню (на мобильных)
+  document.querySelectorAll('.mega-toggle').forEach(function (b) {
+    b.addEventListener('click', function (e) {
+      e.preventDefault(); e.stopPropagation();
+      var li = b.parentElement, on = !li.classList.contains('open');
+      li.classList.toggle('open', on); b.setAttribute('aria-expanded', on ? 'true' : 'false');
+      b.setAttribute('aria-label', L[lang()][on ? 'fold' : 'open']);
+    });
+  });
+
+  // выбор языка выпадающим списком
+  document.querySelectorAll('.lang-dd').forEach(function (dd) {
+    var btn = dd.querySelector('.lang-dd-btn'), list = dd.querySelector('.lang-dd-list');
+    function close() { list.hidden = true; btn.setAttribute('aria-expanded', 'false'); }
+    btn.addEventListener('click', function (e) { e.stopPropagation(); var open = list.hidden; list.hidden = !open; btn.setAttribute('aria-expanded', open ? 'true' : 'false'); });
+    list.addEventListener('click', close);
+    document.addEventListener('click', function (e) { if (!dd.contains(e.target)) close(); });
+    document.addEventListener('keydown', function (e) { if (e.key === 'Escape') close(); });
+  });
+
+  // строки таблиц каталога на главной — целиком ссылки
+  document.querySelectorAll('.row-link tbody tr').forEach(function (tr) {
+    tr.addEventListener('click', function (e) {
+      if (e.target.closest('a, button')) return;
+      var a = tr.querySelector('a[href]'); if (a) window.location.href = a.getAttribute('href');
+    });
+  });
+})();

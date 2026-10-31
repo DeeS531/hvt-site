@@ -201,6 +201,7 @@
       b.classList.toggle('active', on);
       b.setAttribute('aria-pressed', on ? 'true' : 'false');
     });
+    document.querySelectorAll('[data-lang-current]').forEach(function (el) { el.textContent = { ru: 'RU', uk: 'UA', en: 'EN' }[lang]; });
     if (IS_HOME) relinkProducts(lang);
   }
 
