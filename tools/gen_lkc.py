@@ -30,8 +30,6 @@ body = f'''
   </div>
 </div></section>
 <section><div class="container"><div class="row g-4"><div class="col-lg-3">{site_nav.side_nav('lkc.html')}</div><div class="col-lg-9">
-  <span class="eyebrow">Выберите класс нагрузки</span><h2 class="section-title">Каталог по классам нагрузки</h2>
-  <div class="row g-3 mb-5">{cards}</div>
   <div class="row g-4 mx-0">
     <div class="col-xl-7">{desc_html}</div>
     <div class="col-xl-5">{legend}</div>

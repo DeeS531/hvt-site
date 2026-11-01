@@ -212,3 +212,25 @@
   }, { rootMargin: '0px 0px -25% 0px', threshold: 0 });
   edges.forEach(function (e) { io.observe(e); });
 })();
+
+/* 11. Боковое меню группы: на десктопе всегда раскрыто, на телефоне свёрнуто */
+(function () {
+  var mq = window.matchMedia('(min-width: 992px)');
+  function sync() { document.querySelectorAll('details.side-nav').forEach(function (d) { d.open = mq.matches; }); }
+  sync();
+  if (mq.addEventListener) mq.addEventListener('change', sync);
+  document.querySelectorAll('details.side-nav > summary').forEach(function (s) {
+    s.addEventListener('click', function (e) { if (mq.matches) e.preventDefault(); });
+  });
+})();
+
+/* 11. Боковое меню группы: на десктопе всегда раскрыто, на телефоне свёрнуто */
+(function () {
+  var mq = window.matchMedia('(min-width: 992px)');
+  function sync() { document.querySelectorAll('details.side-nav').forEach(function (d) { d.open = mq.matches; }); }
+  sync();
+  if (mq.addEventListener) mq.addEventListener('change', sync);
+  document.querySelectorAll('details.side-nav > summary').forEach(function (s) {
+    s.addEventListener('click', function (e) { if (mq.matches) e.preventDefault(); });
+  });
+})();

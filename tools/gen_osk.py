@@ -177,8 +177,6 @@ body=f'''
   </div>
 </div></section>
 <section><div class="container"><div class="row g-4"><div class="col-lg-3">{site_nav.side_nav('osk.html')}</div><div class="col-lg-9">
-  <span class="eyebrow">Выберите напряжение</span><h2 class="section-title">Каталог по классам напряжения</h2>
-  <div class="row g-3 mb-5">{cards}</div>
   <div class="row g-4 mx-0">
     <div class="col-xl-7"><span class="eyebrow">Описание</span><h2 class="section-title">Изоляторы ОСК</h2>{DESC_TXT}</div>
     <div class="col-xl-5">{LEGEND}</div>

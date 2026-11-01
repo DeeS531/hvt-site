@@ -327,8 +327,6 @@ def main_page():
   </div>
 </div></section>
 <section><div class="container"><div class="row g-4"><div class="col-lg-3">{site_nav.side_nav('opn.html')}</div><div class="col-lg-9">
-  <span class="eyebrow">Выберите напряжение</span><h2 class="section-title">Каталог по классам напряжения</h2>
-  <div class="row g-3 mb-5">{"".join(cards)}</div>
   <div class="row g-4 mx-0">
     <div class="col-xl-7"><span class="eyebrow">Описание</span><h2 class="section-title">Ограничители ОПН-П</h2>{paras}</div>
     <div class="col-xl-5"><div class="code-block"><div class="mb-2 fw-bold" style="color:var(--navy)">Преимущества ОПНп</div><ul class="mb-0 ps-3">{adv}</ul></div></div>

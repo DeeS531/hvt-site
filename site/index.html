@@ -14,7 +14,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link href="css/vendor/bootstrap.min.css" rel="stylesheet">
   <link href="css/vendor/font-awesome.min.css" rel="stylesheet">
-  <link href="css/style.css?v=f9eb1e7a" rel="stylesheet">
+  <link href="css/style.css?v=988de34a" rel="stylesheet">
   <link rel="icon" type="image/svg+xml" href="images/logo.svg">
   <link rel="icon" href="images/favicon.ico">
 </head>
@@ -122,10 +122,10 @@
     <h2 class="section-title reveal" data-i18n="cat_title">Высоковольтное оборудование</h2>
     <p class="section-lead reveal" data-i18n="cat_lead">Основные группы изделий для линий электропередачи, подстанций, железных дорог и выключателей.</p>
 
-    <div class="row g-4">
-      <div class="col-md-6 col-lg-4 reveal">
+    <div class="row g-4 cat-grid">
+      <div class="col-md-6 col-lg-3 reveal">
         <article class="card-cat">
-          <div class="thumb"><img src="images/image6.jpg" alt="Линейные изоляторы" loading="lazy"></div>
+          <div class="thumb"><img src="images/cards/line.jpg" alt="Линейные изоляторы" loading="lazy"></div>
           <div class="body">
             <h3 data-i18n="card_line_t">Линейные изоляторы</h3>
             <p data-i18n="card_line_d">Подвесные полимерные изоляторы для высоковольтных линий электропередач.</p>
@@ -133,9 +133,9 @@
           </div>
         </article>
       </div>
-      <div class="col-md-6 col-lg-4 reveal reveal-delay-1">
+      <div class="col-md-6 col-lg-3 reveal reveal-delay-1">
         <article class="card-cat">
-          <div class="thumb"><img src="images/image2.jpg" alt="Опорные изоляторы" loading="lazy"></div>
+          <div class="thumb"><img src="images/cards/sup.jpg" alt="Опорные изоляторы" loading="lazy"></div>
           <div class="body">
             <h3 data-i18n="card_sup_t">Опорные изоляторы</h3>
             <p data-i18n="card_sup_d">Опорно-стержневые полимерные изоляторы на напряжение от 10 до 220 кВ.</p>
@@ -143,9 +143,9 @@
           </div>
         </article>
       </div>
-      <div class="col-md-6 col-lg-4 reveal reveal-delay-2">
+      <div class="col-md-6 col-lg-3 reveal reveal-delay-2">
         <article class="card-cat">
-          <div class="thumb"><img src="images/image1.jpg" alt="Ограничители перенапряжения" loading="lazy"></div>
+          <div class="thumb"><img src="images/cards/opn.jpg" alt="Ограничители перенапряжения" loading="lazy"></div>
           <div class="body">
             <h3 data-i18n="card_opn_t">Ограничители перенапряжения</h3>
             <p data-i18n="card_opn_d">ОПН-П (разрядники) на напряжение от 0,22 до 330 кВ.</p>
@@ -153,9 +153,29 @@
           </div>
         </article>
       </div>
-      <div class="col-md-6 col-lg-4 reveal">
+      <div class="col-md-6 col-lg-3 reveal">
         <article class="card-cat">
-          <div class="thumb"><img src="images/image4.jpg" alt="Проходные изоляторы" loading="lazy"></div>
+          <div class="thumb"><img src="images/cards/bush.jpg" alt="Вводы высоковольтные" loading="lazy"></div>
+          <div class="body">
+            <h3 data-i18n="card_bush_t">Вводы высоковольтные для выключателей 35 кВ</h3>
+            <p data-i18n="card_bush_d">Вводы ВК-35 и ГКВПШ с усиленной изоляцией для масляных выключателей 35 кВ.</p>
+            <a class="more" href="vk35.html" data-tab-link="tab-pass"><span data-i18n="more">Подробнее</span> <i class="fa fa-long-arrow-right"></i></a>
+          </div>
+        </article>
+      </div>
+      <div class="col-md-6 col-lg-3 reveal reveal-delay-1">
+        <article class="card-cat">
+          <div class="thumb"><img src="images/cards/jdn.jpg" alt="Изоляторы для контактной сети" loading="lazy"></div>
+          <div class="body">
+            <h3 data-i18n="card_jdn_t">Изоляторы полимерные для контактной сети железных дорог</h3>
+            <p data-i18n="card_jdn_d">Полимерные изоляторы для контактной сети железных дорог.</p>
+            <a class="more" href="jdn.html"><span data-i18n="more">Подробнее</span> <i class="fa fa-long-arrow-right"></i></a>
+          </div>
+        </article>
+      </div>
+      <div class="col-md-6 col-lg-3 reveal reveal-delay-2">
+        <article class="card-cat">
+          <div class="thumb"><img src="images/cards/pass.jpg" alt="Проходные изоляторы" loading="lazy"></div>
           <div class="body">
             <h3 data-i18n="card_pass_t">Проходные изоляторы</h3>
             <p data-i18n="card_pass_d">Полимерные проходные изоляторы ППЦ.</p>
@@ -163,27 +183,28 @@
           </div>
         </article>
       </div>
-      <div class="col-md-6 col-lg-4 reveal reveal-delay-1">
+      <div class="col-md-6 col-lg-3 reveal">
         <article class="card-cat">
-          <div class="thumb"><img src="images/image10.jpg" alt="Высоковольтные вводы" loading="lazy"></div>
+          <div class="thumb"><img src="images/cards/bus.jpg" alt="Шинные опоры" loading="lazy"></div>
           <div class="body">
-            <h3 data-i18n="card_bush_t">Высоковольтные вводы</h3>
-            <p data-i18n="card_bush_d">Вводы для масляных выключателей 35 кВ.</p>
-            <a class="more" href="vk35.html" data-tab-link="tab-pass"><span data-i18n="more">Подробнее</span> <i class="fa fa-long-arrow-right"></i></a>
-          </div>
-        </article>
-      </div>
-      <div class="col-md-6 col-lg-4 reveal reveal-delay-2">
-        <article class="card-cat">
-          <div class="thumb"><img src="images/image5.jpg" alt="Шинные опоры и распорки" loading="lazy"></div>
-          <div class="body">
-            <h3 data-i18n="card_bus_t">Шинные опоры и распорки</h3>
-            <p data-i18n="card_bus_d">Полимерные шинные опоры от 10 до 220 кВ и межфазные распорки от 35 до 330 кВ.</p>
+            <h3 data-i18n="card_bus_t">Шинные опоры ШО, ШОП</h3>
+            <p data-i18n="card_bus_d">Полимерные шинные опоры на напряжение от 10 до 220 кВ.</p>
             <a class="more" href="shop.html" data-tab-link="tab-bus"><span data-i18n="more">Подробнее</span> <i class="fa fa-long-arrow-right"></i></a>
           </div>
         </article>
       </div>
+      <div class="col-md-6 col-lg-3 reveal reveal-delay-1">
+        <article class="card-cat">
+          <div class="thumb"><img src="images/cards/rmi.jpg" alt="Распорки межфазные" loading="lazy"></div>
+          <div class="body">
+            <h3 data-i18n="card_rmi_t">Распорки межфазные РМИ</h3>
+            <p data-i18n="card_rmi_d">Полимерные межфазные распорки РМИ на напряжение от 35 до 330 кВ.</p>
+            <a class="more" href="rmi.html"><span data-i18n="more">Подробнее</span> <i class="fa fa-long-arrow-right"></i></a>
+          </div>
+        </article>
+      </div>
     </div>
+    <p class="cat-extra reveal"><a href="zamena.html" data-i18n="cat_zamena">Взаимозаменяемость изоляторов ОСК</a> <span>·</span> <a href="docs.html" data-i18n="cat_docs">Документы и стандарты</a></p>
   </div>
 </section>
 
@@ -389,7 +410,7 @@
 <button class="to-top" id="toTop" aria-label="Наверх"><i class="fa fa-angle-up fa-lg"></i></button>
 
 <script src="js/vendor/bootstrap.bundle.min.js"></script>
-<script src="js/i18n.js?v=f9eb1e7a"></script>
-<script src="js/main.js?v=f9eb1e7a"></script>
+<script src="js/i18n.js?v=988de34a"></script>
+<script src="js/main.js?v=988de34a"></script>
 </body>
 </html>

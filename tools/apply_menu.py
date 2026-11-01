@@ -7,6 +7,6 @@ SITE = os.path.normpath(os.path.join(HERE, '..', 'site'))
 n = 0
 for f in sorted(os.listdir(SITE)):
     if f.endswith('.html'):
-        p = os.path.join(SITE, f); s = open(p, encoding='utf-8').read(); t = site_nav.patch_footer(site_nav.patch_header(s))
+        p = os.path.join(SITE, f); s = open(p, encoding='utf-8').read(); t = site_nav.add_banner(site_nav.add_sidebar(site_nav.patch_footer(site_nav.patch_header(s)), f), f)
         if t != s: open(p, 'w', encoding='utf-8').write(t); n += 1
 print('меню обновлено на страницах:', n)

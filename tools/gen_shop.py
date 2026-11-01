@@ -115,8 +115,6 @@ def group_page():
     paras = ''.join(f'<p>{escape(p)}</p>' for p in D.GROUP['paras'])
     body = hero('Шинные опоры', 'Шинные опоры ШОП и ШО 10–330 кВ', 'Шинные опоры ШОП с полимерной изоляцией и ШО с фарфоровой изоляцией для крепления, фиксации и электрической изоляции токоведущих шин и проводов.') + f'''
 <section><div class="container"><div class="row g-4"><div class="col-lg-3">{side(None)}</div><div class="col-lg-9">
-  <span class="eyebrow">Выберите напряжение</span><h2 class="section-title">Каталог по классам напряжения</h2>
-  <div class="row g-3 mb-5">{cards}</div>
   <span class="eyebrow">Описание</span><h2 class="section-title">Шинные опоры ШОП и ШО</h2>{paras}
 </div></div></div></section>
 {cta()}'''
