@@ -13,6 +13,17 @@ LOGO = open(os.path.join(ROOT, 'data', 'logo_211.jpg'), 'rb').read()
 LW, LH = 1132, 522
 BAD = [b'slavsep', b'sep.ho', b'761 20', b'761-20', 'Славен'.encode('utf-8'), b'Slaven']
 NUM = rb'[\d.\-]+'
+# контакты справа от логотипа (шрифт Helvetica без встраивания, ширины символов — по AFM)
+PHONE = '+380 50 947 35 49'; EMAIL = 'highvoltagetechnologies.ua@gmail.com'
+_W = dict(zip(range(32, 127), [278,278,355,556,556,889,667,191,333,333,389,584,278,333,278,278] + [556]*10 + [278,278,584,584,584,556,1015] +
+    [667,667,722,722,667,611,778,722,278,500,667,556,833,722,778,667,778,722,667,611,722,667,944,667,667,611] + [278,278,278,469,556,333] +
+    [556,556,500,556,556,278,556,556,222,222,500,222,833,556,556,556,500,333,500,278,556,500,722,500,500,500] + [334,260,334,584]))
+def tw(t, size): return sum(_W[ord(c)] for c in t) * size / 1000.0
+def contacts_ops(right=548.0):
+    ops = b'q 0.07 0.16 0.29 rg BT '
+    for txt, y in ((PHONE, 772.0), (EMAIL, 756.0)):
+        ops += b'/FHvt 10 Tf 1 0 0 1 %.2f %.2f Tm (%s) Tj ' % (right - tw(txt, 10), y, txt.encode())
+    return ops + b'ET Q\n'
 
 def ser(dic):
     return b'<<' + b''.join(b'/' + k + b' ' + v + b'\n' for k, v in dic.items()) + b'>>'
@@ -59,6 +70,7 @@ def process(name):
     maxn = max(p.xref) + 1
     new_content = {}; new_page = {}
     logo_n = maxn; maxn += 1
+    font_n = maxn; maxn += 1
     use_logo = False
     for pn in pages:
         dic, _ = p.get(pn)
@@ -69,13 +81,19 @@ def process(name):
         if re.fullmatch(rb'\d+ \d+ R', res.strip()): res = ser(p.get(int(res.split()[0]))[0])
         if rem:
             use_logo = True
-            stream += b'\nq %.2f 0 0 %.2f 47 733 cm /ImNewLogo Do Q\n' % (130.0, 130.0 * LH / LW)
+            stream += b'\nq %.2f 0 0 %.2f 47 733 cm /ImNewLogo Do Q\n' % (130.0, 130.0 * LH / LW) + contacts_ops()
             m = re.search(rb'/XObject\s*<<', res); m2 = re.search(rb'/XObject\s+(\d+) \d+ R', res)
             if m: res = res[:m.end()] + b'/ImNewLogo %d 0 R' % logo_n + res[m.end():]
             elif m2:
                 inner = p.get(int(m2.group(1)))[0]
                 res = res[:m2.start()] + b'/XObject<<' + inner[2:-2] + b'/ImNewLogo %d 0 R>>' % logo_n + res[m2.end():]
             else: res = res[:-2] + b'/XObject<</ImNewLogo %d 0 R>>>>' % logo_n
+            mf = re.search(rb'/Font\s*<<', res); mf2 = re.search(rb'/Font\s+(\d+) \d+ R', res)
+            if mf: res = res[:mf.end()] + b'/FHvt %d 0 R' % font_n + res[mf.end():]
+            elif mf2:
+                inner = p.get(int(mf2.group(1)))[0]
+                res = res[:mf2.start()] + b'/Font<<' + inner[2:-2] + b'/FHvt %d 0 R>>' % font_n + res[mf2.end():]
+            else: res = res[:-2] + b'/Font<</FHvt %d 0 R>>>>' % font_n
         nc = maxn; maxn += 1
         new_content[nc] = zlib.compress(stream, 9)
         d2 = dict(dic); d2[b'Contents'] = b'%d 0 R' % nc; d2[b'Resources'] = res
@@ -88,7 +106,7 @@ def process(name):
     seen = set()
     while todo:
         n = todo.pop()
-        if n in seen or n in new_content or n == logo_n: continue
+        if n in seen or n in new_content or n in (logo_n, font_n): continue
         seen.add(n)
         d, raw = override[n] if n in override else p.get(n)
         objs[n] = (d, raw)
@@ -113,6 +131,8 @@ def process(name):
     if use_logo:
         put(logo_n, {b'Type': b'/XObject', b'Subtype': b'/Image', b'Width': b'%d' % LW, b'Height': b'%d' % LH,
                      b'ColorSpace': b'/DeviceRGB', b'BitsPerComponent': b'8', b'Filter': b'/DCTDecode'}, LOGO)
+    if use_logo:
+        put(font_n, {b'Type': b'/Font', b'Subtype': b'/Type1', b'BaseFont': b'/Helvetica', b'Encoding': b'/WinAnsiEncoding'}, None)
     size = max(offs) + 1
     xr = len(out)
     out.extend(b'xref\n0 %d\n' % size)
